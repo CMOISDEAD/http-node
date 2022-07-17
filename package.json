@@ -1,0 +1,24 @@
+{
+  "name": "getman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx -p @babel/core -p @babel/node babel-node --presets @babel/preset-env src",
+    "dev": "nodemon src --exec babel-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/node": "^7.18.6",
+    "@babel/plugin-transform-runtime": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "axios": "^0.27.2",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "nodemon": "^2.0.19"
+  }
+}
